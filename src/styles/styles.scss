@@ -1,0 +1,30 @@
+//---------
+// FONTS
+//---------
+@import url('https://fonts.googleapis.com/css?family=Varela');
+
+$font-family: 'Varela', sans-serif;
+
+//---------
+// COLORS
+//---------
+
+$dark-black: #000000;
+$light-black: #313131;
+$dusty-rose: #E7A8A8;
+
+//---------
+// TEXT COLORS
+//---------
+
+.text-dark-black {
+    color: $dark-black;
+}
+
+.text-light-black {
+    color: $light-black
+}
+
+.text-pink {
+    color: $dusty-rose
+}

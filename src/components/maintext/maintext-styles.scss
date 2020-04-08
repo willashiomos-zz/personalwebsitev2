@@ -1,0 +1,24 @@
+.main-text {
+    color: black;
+    margin-top: 200px;
+    margin-left: 90px;
+    font-size: 80px;
+    width: 85%;
+    font-family: 'Varela';
+    display: inline-block;
+}
+
+@media(max-width: 768px) {
+    .main-text {
+        font-size: 30px;
+        margin-left: 20px;
+        width: 90%;
+    }
+}
+
+.line {
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    top: 65px;
+}
