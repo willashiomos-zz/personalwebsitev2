@@ -1,5 +1,32 @@
+@import '../../styles/styles.scss';
+
 .navbar {
-    font-size: 200px;
     z-index: 9999;
     position: fixed;
+    display: flex;
+}
+
+.nav-row {
+    width: calc(100% - 40px);
+    left: 30px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    color: $dark-black;
+}
+
+.nav-item:hover {
+    color: $dusty-rose;
+    text-decoration: none;
+}
+
+.font-size-md {
+    font-size: 125px;
+}
+
+.font-size-sm {
+    font-size: 75px;
 }

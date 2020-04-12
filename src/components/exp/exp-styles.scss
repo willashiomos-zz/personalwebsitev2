@@ -1,0 +1,36 @@
+.exp {
+    margin-top: 400px;
+    margin-left: 150px;
+    font-family: 'Varela';
+    display: inline-block;
+    width: 85%;
+}
+
+.title {
+    color: black;
+    font-size: 80px;
+}
+
+@media(max-width: 768px) {
+    .main-text {
+        font-size: 30px;
+        margin-left: 20px;
+        width: 90%;
+    }
+}
+
+.line-sm {
+    width: 75px;
+    height: 5px;
+    background-color: black;
+    top: 30px;
+}
+
+.info {
+    font-size: 40px;
+}
+
+.info-block {
+    margin-left: 100px;
+}
+
