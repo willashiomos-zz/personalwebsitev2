@@ -1,0 +1,39 @@
+.skills {
+    margin-top: 200px;
+    font-family: 'Varela';
+    display: inline-block;
+    width: 100%;
+    font-size: 36px;
+}
+
+.marquee {
+    height: 50px;
+    position: relative;
+    color: black;
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.marquee div {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 16s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+
+

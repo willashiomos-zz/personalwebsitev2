@@ -1,0 +1,41 @@
+@import '../../styles/styles.scss';
+
+.contact {
+    margin-top: 200px;
+    margin-bottom: 300px;
+    margin-left: 150px;
+    font-family: 'Varela';
+    width: 85%;
+    height: 200px;
+}
+
+.contact-title {
+    font-size: 80px;
+}
+
+@media(max-width: 768px) {
+    .main-text {
+        font-size: 30px;
+        margin-left: 20px;
+        width: 90%;
+    }
+}
+
+.line-sm {
+    width: 75px;
+    height: 5px;
+    background-color: black;
+    top: 30px;
+}
+
+.info {
+    font-size: 48px;
+}
+
+.info-item {
+    color: $dark-black;
+}
+
+.info-item:hover {
+    color: $dark-black;
+}
