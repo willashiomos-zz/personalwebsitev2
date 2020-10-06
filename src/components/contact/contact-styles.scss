@@ -2,7 +2,7 @@
 
 .contact {
     margin-top: 200px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     margin-left: 150px;
     font-family: 'Varela';
     width: 85%;
@@ -13,29 +13,36 @@
     font-size: 80px;
 }
 
-@media(max-width: 768px) {
-    .main-text {
-        font-size: 30px;
-        margin-left: 20px;
-        width: 90%;
-    }
-}
-
-.line-sm {
-    width: 75px;
-    height: 5px;
-    background-color: black;
-    top: 30px;
-}
-
-.info {
+.contact-info {
     font-size: 48px;
 }
 
-.info-item {
+.contact-item {
     color: $dark-black;
 }
 
-.info-item:hover {
+.contact-item:hover {
     color: $dark-black;
+}
+
+@media(max-width: 768px) {
+    .contact {
+        margin-left: 20px;
+        width: 90%;
+    }
+    .contact-title {
+        font-size: 50px;
+    }
+    .contact-info {
+        font-size: 24px;
+    }
+    .contact-row {
+        margin: auto;
+    }
+}
+
+@media(max-width: 414px) {
+    .contact-title {
+        align-self: center;
+    }
 }

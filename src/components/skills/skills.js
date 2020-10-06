@@ -3,12 +3,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './skills-styles.scss'
 
 const data = {'Python': 'text-pink', 'Javascript': 'text-light-black', 'React': 'text-light-black', 
-'Java': 'text-light-black', 'Jinja': 'text-light-black', 'CSS': 'text-light-black', 'Bootstrap': 'text-pink', 
-'HTML': 'text-light-black', 'SQL': 'text-light-black'}
+'Java': 'text-light-black', 'Jinja': 'text-light-black', 'CSS': 'text-light-black', 'jQuery': 'text-light-black',
+'Bootstrap': 'text-pink', 'HTML': 'text-light-black', 'SQL': 'text-light-black', 'Git': 'text-light-black', 
+'Flask': 'text-pink', 'PHP': 'text-light-black'}
 
-const data_second = {'Python': 'text-light-black', 'Javascript': 'text-pink', 'React': 'text-light-black', 
-'Java': 'text-light-black', 'Jinja': 'text-pink', 'CSS': 'text-light-black', 'Bootstrap': 'text-light-black', 
-'HTML': 'text-light-black', 'SQL': 'text-light-black'}
 
 const SkillsText = () => (
 

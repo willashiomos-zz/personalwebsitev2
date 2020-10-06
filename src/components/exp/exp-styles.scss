@@ -1,5 +1,5 @@
 .exp {
-    margin-top: 400px;
+    margin-top: 300px;
     margin-left: 150px;
     font-family: 'Varela';
     display: inline-block;
@@ -9,14 +9,6 @@
 .title {
     color: black;
     font-size: 80px;
-}
-
-@media(max-width: 768px) {
-    .main-text {
-        font-size: 30px;
-        margin-left: 20px;
-        width: 90%;
-    }
 }
 
 .line-sm {
@@ -30,7 +22,40 @@
     font-size: 40px;
 }
 
+.info-section-title {
+    font-size: 40px;
+}
+
 .info-block {
     margin-left: 100px;
 }
 
+@media(max-width: 768px) {
+    .exp {
+        margin-left: 20px;
+        width: 90%;
+    }
+    .title {
+        font-size: 48px;
+    }
+    .info-block {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .info {
+        font-size: 24px;
+    }
+    .line-sm {
+        width: 20px;
+        height: 2px;
+        top: 0;
+        align-self: center;
+    }
+    .info-row {
+        display: flex;
+        justify-content: center;
+    }
+    .info-section-title {
+        text-align: left !important;
+    }
+}

@@ -30,3 +30,17 @@
 .font-size-sm {
     font-size: 75px;
 }
+
+.font-size-xs {
+    font-size: 64px;
+}
+
+.nav-link-name {
+    font-family: 'Varela';
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}

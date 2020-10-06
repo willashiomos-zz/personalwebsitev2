@@ -1,0 +1,68 @@
+@import '../../styles/styles.scss';
+
+.mobile-navbar {
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+}
+
+.mobile-nav-row {
+    width: calc(100% - 40px);
+    left: 30px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    height: 100px;
+}
+
+.mobile-nav-home, 
+.mobile-nav-home a:link, 
+.mobile-nav-home a:hover, 
+.mobile-nav-home a:active, 
+.mobile-nav-home a:focus, 
+.mobile-nav-home a:visited, 
+.mobile-nav-home a:active {
+    color: $dark-black;
+    text-decoration: none;
+}
+
+.bg-black {
+    background-color: $dark-black;
+}
+
+.mobile-nav-content {
+	position: fixed;
+	z-index: 20;
+    padding: 0;
+    font-family: $font-family;
+}
+
+.mobile-nav-item {
+	font-size: 52px;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.mobile-nav-link {
+	color: #FFFFFF;
+}
+
+.mobile-nav-link a:link, .nav-link a:visited {
+	color: #FFFFFF;
+}
+
+.mobile-nav-content a:hover {
+	color: $dusty-rose;
+}
+
+.mobile-navbar-nav {
+	padding-top: 150px;
+	line-height: initial;
+}
+
+@media(min-width: 767px) {
+    .mobile-navbar {
+        display: none;
+    }
+}

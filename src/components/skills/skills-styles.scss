@@ -33,7 +33,11 @@
 
 @keyframes marquee {
     from { transform: translateX(0); }
-    to { transform: translateX(-100%); }
-  }
+    to { transform: translateX(-65%); }
+}
 
-
+@media(max-width: 768px) {
+    .skills {
+        font-size: 30px;
+    }
+}

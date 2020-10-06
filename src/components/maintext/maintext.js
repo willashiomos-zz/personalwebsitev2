@@ -7,7 +7,7 @@ const MainText = () => (
         <div class="row-auto">Hello,</div>
         <div class="row">
             <div class='col-auto'>I'm</div>
-            <div class='col-auto text-pink'>Willa </div>
+            <div class='col-auto text-pink name'>Willa </div>
             <div class='col-auto mx-4 line'></div>
             <div class="col-auto">a student in</div>
         </div>
